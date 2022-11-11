@@ -5,3 +5,5 @@
 3. Launch the emulator, with Fuse, make sure gdbserver is enabled on port 1337
 4. Build the project, select Debug configuration
 5. Start the debugging session, z88dk-gdb should upload the binary onto the emulator
+
+See how z88dk implements CMake [here](https://github.com/z88dk/z88dk/wiki/CMake)
