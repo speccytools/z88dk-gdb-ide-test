@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "attach",
+            "name": "Attach to gdbserver",
+            "executable": "${workspaceRoot}/build/vscodetest.map",
+            "target": "127.0.0.1:1337",
+            "remote": true,
+            "cwd": "${workspaceRoot}",
+            "gdbpath": "/usr/local/bin/z88dk-gdb",
+            "autorun": [
+            ],
+            "stopAtConnect": true,
+            "printCalls": true,
+            //"showDevDebugOutput": true
+        }
+    ]
+}

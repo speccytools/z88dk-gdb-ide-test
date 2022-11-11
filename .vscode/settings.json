@@ -1,0 +1,6 @@
+{
+    "cmake.configureArgs": [
+        "-DZCCTARGET=zx",
+        "-DCMAKE_TOOLCHAIN_FILE=/usr/local/share/z88dk/cmake/Toolchain-zcc.cmake"
+    ]
+}

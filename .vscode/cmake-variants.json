@@ -1,0 +1,16 @@
+{
+    "buildType": {
+        "default": "Debug",
+        "description": "Build Type Selection",
+        "choices": {
+            "Debug": {
+                "short": "Debug",
+                "long": "Build with debugging information",
+                "buildType": "Debug",
+                "settings": {
+                    "CMAKE_CXX_FLAGS_DEBUG": "-debug"
+                }
+            }
+        }
+    }
+}
