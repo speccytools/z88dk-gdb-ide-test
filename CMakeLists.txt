@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
-project(vscodetest C)
+project(idetest C)
 
-add_executable(vscodetest main.c)
-target_compile_options(vscodetest PUBLIC -debug)
-target_link_libraries(vscodetest PUBLIC -lndos)
+add_executable(idetest main.c)
+target_compile_options(idetest PUBLIC -debug)
+target_link_libraries(idetest PUBLIC -lndos)
