@@ -10,3 +10,13 @@
 8. You should see the breakpoint being hit
 
 See how z88dk implements CMake [here](https://github.com/z88dk/z88dk/wiki/CMake)
+
+## Building and debugging on CLI?
+
+```
+mkdir build
+cd build
+cmake -DZCCTARGET=zx -DCMAKE_TOOLCHAIN_FILE=/usr/local/share/z88dk/cmake/Toolchain-zcc.cmake ..
+make
+z88dk-gdb -x idetest.map -h <debugger host> -p <debugger-port>
+```
