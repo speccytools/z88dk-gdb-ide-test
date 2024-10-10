@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="emulator" type="CLion_Remote" version="1" remoteCommand="127.0.0.1:1337" symbolFile="$PROJECT_DIR$/cmake-build-debug/idetest.map" sysroot="">
-    <debugger toolchainName="z88dk" />
+    <debugger toolchainName="MinGW" />
     <method v="2" />
   </configuration>
 </component>
