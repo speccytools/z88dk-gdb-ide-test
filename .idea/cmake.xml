@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeSharedSettings">
     <configurations>
-      <configuration PROFILE_NAME="z88dk" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="-G &quot;Unix Makefiles&quot; -DZCCTARGET=zx -DCMAKE_TOOLCHAIN_FILE=/usr/local/share/z88dk/cmake/Toolchain-zcc.cmake -DCMAKE_VERBOSE_MAKEFILE=TRUE" />
+      <configuration PROFILE_NAME="z88dk" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="-DZCCTARGET=zx -DCMAKE_TOOLCHAIN_FILE=/usr/local/share/z88dk/cmake/Toolchain-zcc.cmake" />
     </configurations>
   </component>
 </project>
